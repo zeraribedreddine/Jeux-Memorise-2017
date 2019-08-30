@@ -1,0 +1,31 @@
+unit stg1_ar_unit;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  Vcl.Imaging.pngimage;
+
+type
+  TForm3 = class(TForm)
+    Image34: TImage;
+    Image2: TImage;
+    Label1: TLabel;
+    Image12: TImage;
+    Image11: TImage;
+    Panel1: TPanel;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+end.

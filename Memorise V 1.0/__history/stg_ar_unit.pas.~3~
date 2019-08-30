@@ -1,0 +1,48 @@
+unit stg_ar_unit;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
+  Vcl.Imaging.jpeg, Vcl.ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    Image1: TImage;
+    Image34: TImage;
+    Image2: TImage;
+    Label1: TLabel;
+    Image12: TImage;
+    Image11: TImage;
+    Image3: TImage;
+    Image4: TImage;
+    Image5: TImage;
+    Image6: TImage;
+    Image7: TImage;
+    Image8: TImage;
+    Image9: TImage;
+    Image10: TImage;
+    procedure Image34Click(Sender: TObject);
+
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TForm2.Image34Click(Sender: TObject);
+begin
+Application.Terminate ;
+end;
+
+end.

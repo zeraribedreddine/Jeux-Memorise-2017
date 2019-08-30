@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/05/13 01:25:53.000.768,=C:\Users\client_01\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/05/13 01:26:59.000.906,C:\Users\client_01\Documents\Embarcadero\Studio\Projets\Unit1.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\main_unit.dfm</Transaction>
+    <Transaction>2018/05/13 01:26:59.000.906,C:\Users\client_01\Documents\Embarcadero\Studio\Projets\Unit1.pas=C:\Users\client_01\Desktop\Memorise V 1.0\main_unit.pas</Transaction>
+    <Transaction>2018/05/13 01:27:19.000.691,C:\Users\client_01\Documents\Embarcadero\Studio\Projets\Project1.dproj=C:\Users\client_01\Desktop\Memorise V 1.0\Jeux_Memorise.dproj</Transaction>
+    <Transaction>2018/05/13 01:32:20.000.460,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit2.pas</Transaction>
+    <Transaction>2018/05/13 01:33:33.000.927,C:\Users\client_01\Desktop\Memorise V 1.0\stg_ar_unit.pas=C:\Users\client_01\Desktop\Memorise V 1.0\Unit2.pas</Transaction>
+    <Transaction>2018/05/13 01:33:33.000.927,C:\Users\client_01\Desktop\Memorise V 1.0\stg_ar_unit.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\Unit2.dfm</Transaction>
+    <Transaction>2018/05/13 01:41:59.000.954,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit3.pas</Transaction>
+    <Transaction>2018/05/13 01:45:41.000.518,C:\Users\client_01\Desktop\Memorise V 1.0\stg1_ar_unit.pas=C:\Users\client_01\Desktop\Memorise V 1.0\Unit3.pas</Transaction>
+    <Transaction>2018/05/13 01:45:41.000.518,C:\Users\client_01\Desktop\Memorise V 1.0\stg1_ar_unit.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\Unit3.dfm</Transaction>
+    <Transaction>2018/05/13 02:04:21.000.185,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit4.pas</Transaction>
+    <Transaction>2018/05/13 02:05:47.000.844,C:\Users\client_01\Desktop\Memorise V 1.0\stg1_ar_verific.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\Unit4.dfm</Transaction>
+    <Transaction>2018/05/13 02:05:47.000.843,C:\Users\client_01\Desktop\Memorise V 1.0\stg1_ar_verific.pas=C:\Users\client_01\Desktop\Memorise V 1.0\Unit4.pas</Transaction>
+    <Transaction>2018/05/13 02:18:26.000.181,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit5.pas</Transaction>
+    <Transaction>2018/05/13 02:20:18.000.020,C:\Users\client_01\Desktop\Memorise V 1.0\true_ar_unit.pas=C:\Users\client_01\Desktop\Memorise V 1.0\Unit5.pas</Transaction>
+    <Transaction>2018/05/13 02:20:18.000.020,C:\Users\client_01\Desktop\Memorise V 1.0\true_ar_unit.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\Unit5.dfm</Transaction>
+    <Transaction>2018/05/13 02:21:30.000.692,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit6.pas</Transaction>
+    <Transaction>2018/05/13 02:23:17.000.293,C:\Users\client_01\Desktop\Memorise V 1.0\false_ar_unit.pas=C:\Users\client_01\Desktop\Memorise V 1.0\Unit6.pas</Transaction>
+    <Transaction>2018/05/13 02:23:17.000.293,C:\Users\client_01\Desktop\Memorise V 1.0\false_ar_unit.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\Unit6.dfm</Transaction>
+    <Transaction>2018/05/13 03:26:39.000.597,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit7.pas</Transaction>
+    <Transaction>2018/05/13 03:28:53.000.021,C:\Users\client_01\Desktop\Memorise V 1.0\Unit7.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\stg2_ar_unit.dfm</Transaction>
+    <Transaction>2018/05/13 03:28:53.000.021,C:\Users\client_01\Desktop\Memorise V 1.0\Unit7.pas=C:\Users\client_01\Desktop\Memorise V 1.0\stg2_ar_unit.pas</Transaction>
+    <Transaction>2018/05/13 03:41:55.000.416,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit8.pas</Transaction>
+    <Transaction>2018/05/13 03:43:23.000.522,C:\Users\client_01\Desktop\Memorise V 1.0\Unit8.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\stg2_ar_verific.dfm</Transaction>
+    <Transaction>2018/05/13 03:43:23.000.522,C:\Users\client_01\Desktop\Memorise V 1.0\Unit8.pas=C:\Users\client_01\Desktop\Memorise V 1.0\stg2_ar_verific.pas</Transaction>
+    <Transaction>2018/05/13 04:27:20.000.888,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit9.pas</Transaction>
+    <Transaction>2018/05/13 04:29:50.000.409,C:\Users\client_01\Desktop\Memorise V 1.0\Unit9.pas=C:\Users\client_01\Desktop\Memorise V 1.0\stg_fr_unit.pas</Transaction>
+    <Transaction>2018/05/13 04:29:50.000.409,C:\Users\client_01\Desktop\Memorise V 1.0\Unit9.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\stg_fr_unit.dfm</Transaction>
+    <Transaction>2018/05/13 04:31:14.000.575,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit10.pas</Transaction>
+    <Transaction>2018/05/13 04:32:52.000.631,C:\Users\client_01\Desktop\Memorise V 1.0\Unit10.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\stg1_fr_unit.dfm</Transaction>
+    <Transaction>2018/05/13 04:32:52.000.631,C:\Users\client_01\Desktop\Memorise V 1.0\Unit10.pas=C:\Users\client_01\Desktop\Memorise V 1.0\stg1_fr_unit.pas</Transaction>
+    <Transaction>2018/05/13 04:42:07.000.835,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit11.pas</Transaction>
+    <Transaction>2018/05/13 04:42:29.000.975,C:\Users\client_01\Desktop\Memorise V 1.0\Unit11.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\stg1_fr_cerific.dfm</Transaction>
+    <Transaction>2018/05/13 04:42:29.000.975,C:\Users\client_01\Desktop\Memorise V 1.0\Unit11.pas=C:\Users\client_01\Desktop\Memorise V 1.0\stg1_fr_cerific.pas</Transaction>
+    <Transaction>2018/05/13 04:58:55.000.585,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit12.pas</Transaction>
+    <Transaction>2018/05/13 05:01:12.000.224,C:\Users\client_01\Desktop\Memorise V 1.0\Unit12.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\stg2_fr_unit.dfm</Transaction>
+    <Transaction>2018/05/13 05:01:12.000.224,C:\Users\client_01\Desktop\Memorise V 1.0\Unit12.pas=C:\Users\client_01\Desktop\Memorise V 1.0\stg2_fr_unit.pas</Transaction>
+    <Transaction>2018/05/13 05:12:05.000.055,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit13.pas</Transaction>
+    <Transaction>2018/05/13 05:14:24.000.638,C:\Users\client_01\Desktop\Memorise V 1.0\Unit13.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\stg2_fr_verific.dfm</Transaction>
+    <Transaction>2018/05/13 05:14:24.000.637,C:\Users\client_01\Desktop\Memorise V 1.0\Unit13.pas=C:\Users\client_01\Desktop\Memorise V 1.0\stg2_fr_verific.pas</Transaction>
+    <Transaction>2018/05/13 17:30:39.000.563,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit14.pas</Transaction>
+    <Transaction>2018/05/13 17:36:00.000.810,C:\Users\client_01\Desktop\Memorise V 1.0\apropos_unit.dfm=C:\Users\client_01\Desktop\Memorise V 1.0\Unit14.dfm</Transaction>
+    <Transaction>2018/05/13 17:36:00.000.810,C:\Users\client_01\Desktop\Memorise V 1.0\apropos_unit.pas=C:\Users\client_01\Desktop\Memorise V 1.0\Unit14.pas</Transaction>
+    <Transaction>2018/05/14 22:58:20.000.892,=C:\Users\client_01\Desktop\Memorise V 1.0\Unit1.pas</Transaction>
+    <Transaction>2018/05/14 22:59:23.000.365,C:\Users\client_01\Desktop\Memorise V 1.0\Unit1.pas=C:\Users\client_01\Desktop\Memorise V 1.0\helpfile.pas</Transaction>
+  </Transactions>
+</BorlandProject>

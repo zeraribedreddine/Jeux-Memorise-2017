@@ -1,0 +1,62 @@
+unit stg1_ar_verific;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls;
+
+type
+  TForm4 = class(TForm)
+    Panel1: TPanel;
+    Image34: TImage;
+    Image4: TImage;
+    Image3: TImage;
+    Image13: TImage;
+    Image5: TImage;
+    Image2: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
+    GroupBox1: TGroupBox;
+    Button1: TButton;
+    CheckBox1: TCheckBox;
+    CheckBox2: TCheckBox;
+    CheckBox3: TCheckBox;
+    CheckBox4: TCheckBox;
+    Timer1: TTimer;
+    procedure Image34Click(Sender: TObject);
+    procedure Image13Click(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+uses main_unit;
+
+procedure TForm4.Image13Click(Sender: TObject);
+begin
+form1.show;
+form4.Hide ;
+end;
+
+procedure TForm4.Image34Click(Sender: TObject);
+begin
+Application.Terminate ;
+end;
+
+procedure TForm4.Timer1Timer(Sender: TObject);
+begin
+Label2.Caption := IntToStr(StrToInt(Label2.Caption )+ 1 );
+end;
+
+end.

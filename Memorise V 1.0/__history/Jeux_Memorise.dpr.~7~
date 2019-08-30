@@ -1,0 +1,26 @@
+program Jeux_Memorise;
+
+uses
+  Vcl.Forms,
+  main_unit in 'main_unit.pas' {Form1},
+  stg_ar_unit in 'stg_ar_unit.pas' {Form2},
+  stg1_ar_unit in 'stg1_ar_unit.pas' {Form3},
+  stg1_ar_verific in 'stg1_ar_verific.pas' {Form4},
+  true_ar_unit in 'true_ar_unit.pas' {Form5},
+  false_ar_unit in 'false_ar_unit.pas' {Form6},
+  stg2_ar_unit in 'stg2_ar_unit.pas' {Form7};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm7, Form7);
+  Application.Run;
+end.

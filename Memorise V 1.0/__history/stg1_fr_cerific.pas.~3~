@@ -1,0 +1,57 @@
+unit stg1_fr_cerific;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls;
+
+type
+  TForm11 = class(TForm)
+    Panel1: TPanel;
+    Image34: TImage;
+    Image4: TImage;
+    Image3: TImage;
+    Image5: TImage;
+    Image2: TImage;
+    Image13: TImage;
+    GroupBox1: TGroupBox;
+    Button1: TButton;
+    CheckBox1: TCheckBox;
+    CheckBox2: TCheckBox;
+    CheckBox3: TCheckBox;
+    CheckBox4: TCheckBox;
+    Label1: TLabel;
+    Label2: TLabel;
+    Timer1: TTimer;
+    procedure Image34Click(Sender: TObject);
+    procedure Image13Click(Sender: TObject);
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form11: TForm11;
+
+implementation
+
+{$R *.dfm}
+
+uses false_ar_unit, main_unit, stg_ar_unit, stg_fr_unit, stg1_ar_unit,
+  stg1_ar_verific, stg1_fr_unit, stg2_ar_unit, stg2_ar_verific, true_ar_unit;
+
+procedure TForm11.Image13Click(Sender: TObject);
+begin
+form1.show ;
+form11.Hide ;
+end;
+
+procedure TForm11.Image34Click(Sender: TObject);
+begin
+Application.Terminate ;
+end;
+
+end.

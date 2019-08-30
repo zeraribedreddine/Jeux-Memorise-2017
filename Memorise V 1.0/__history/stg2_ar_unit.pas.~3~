@@ -1,0 +1,43 @@
+unit stg2_ar_unit;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  Vcl.Imaging.pngimage;
+
+type
+  TForm7 = class(TForm)
+    Panel1: TPanel;
+    Image34: TImage;
+    Image4: TImage;
+    Image3: TImage;
+    Image13: TImage;
+    Image5: TImage;
+    Image2: TImage;
+    Label1: TLabel;
+    Image7: TImage;
+    Label3: TLabel;
+    Image8: TImage;
+    Label2: TLabel;
+    Image6: TImage;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form7: TForm7;
+
+implementation
+
+{$R *.dfm}
+
+uses false_ar_unit, main_unit, stg_ar_unit, stg1_ar_unit, stg1_ar_verific,
+  true_ar_unit;
+
+
+
+end.

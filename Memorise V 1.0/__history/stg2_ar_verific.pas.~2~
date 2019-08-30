@@ -1,0 +1,38 @@
+unit stg2_ar_verific;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls;
+
+type
+  TForm8 = class(TForm)
+    Panel1: TPanel;
+    Image34: TImage;
+    Image4: TImage;
+    Image5: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Image13: TImage;
+    GroupBox1: TGroupBox;
+    Button1: TButton;
+    CheckBox1: TCheckBox;
+    CheckBox2: TCheckBox;
+    CheckBox3: TCheckBox;
+    CheckBox4: TCheckBox;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form8: TForm8;
+
+implementation
+
+{$R *.dfm}
+
+end.

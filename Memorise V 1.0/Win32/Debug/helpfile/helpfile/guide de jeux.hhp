@@ -1,0 +1,32 @@
+[OPTIONS]
+Language=0x040c
+Default Font=Arial,8,0
+TITLE=Memorise Guide de Jeux
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Auto Index=No
+Default Window=Main
+Compiled file=guide de jeux.chm
+Error Log file=guide de jeux.log
+Contents file=guide de jeux.hhc
+Index File=guide de jeux.hhk
+Default Topic=manueldelutilisateurdejeuxmemorisev10.html
+[FILES]
+manueldelutilisateurdejeuxmemorisev10.html
+descriptiondujeu.html
+commentutiliserlejeu.html
+pourplusdinformationssurleprogrammecontactez.html
+logo.png
+nexttopic.png
+prevtopic.png
+[WINDOWS]
+Main=,"guide de jeux.hhc","guide de jeux.hhk","manueldelutilisateurdejeuxmemorisev10.html","manueldelutilisateurdejeuxmemorisev10.html",,,,,0x061520,200,0x00304E,[50,50,850,450],0x307e,,,,,,,,0
+[ALIAS]
+manueldelutilisateurdejeuxmemorisev10=manueldelutilisateurdejeuxmemorisev10.html
+descriptiondujeu=descriptiondujeu.html
+commentutiliserlejeu=commentutiliserlejeu.html
+pourplusdinformationssurleprogrammecontactez=pourplusdinformationssurleprogrammecontactez.html
+[MAP]
+#include guide de jeux.h

@@ -1,0 +1,34 @@
+unit stg1_ar_verific;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls;
+
+type
+  TForm4 = class(TForm)
+    Panel1: TPanel;
+    Image34: TImage;
+    Image4: TImage;
+    Label5: TLabel;
+    Image3: TImage;
+    Label4: TLabel;
+    Image13: TImage;
+    Image5: TImage;
+    Image2: TImage;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+end.

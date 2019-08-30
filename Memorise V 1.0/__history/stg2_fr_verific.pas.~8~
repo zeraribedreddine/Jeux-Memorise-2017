@@ -1,0 +1,36 @@
+unit stg2_fr_verific;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Imaging.pngimage,
+  Vcl.StdCtrls;
+
+type
+  TForm13 = class(TForm)
+    Panel1: TPanel;
+
+
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form13: TForm13;
+
+implementation
+
+{$R *.dfm}
+
+uses main_unit, false_ar_unit, stg_ar_unit, stg_fr_unit, stg1_ar_unit,
+  stg1_ar_verific, stg1_fr_cerific, stg1_fr_unit, stg2_ar_unit, stg2_ar_verific,
+  stg2_fr_unit, true_ar_unit;
+
+
+
+
+
+end.

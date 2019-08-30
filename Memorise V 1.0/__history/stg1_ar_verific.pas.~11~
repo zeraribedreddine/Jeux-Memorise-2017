@@ -1,0 +1,95 @@
+unit stg1_ar_verific;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls;
+
+type
+  TForm4 = class(TForm)
+    Panel1: TPanel;
+    Image34: TImage;
+    Image4: TImage;
+    Image3: TImage;
+    Image13: TImage;
+    Image5: TImage;
+    Image2: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
+    GroupBox1: TGroupBox;
+    Button1: TButton;
+    CheckBox1: TCheckBox;
+    CheckBox2: TCheckBox;
+    CheckBox3: TCheckBox;
+    CheckBox4: TCheckBox;
+    Timer1: TTimer;
+    procedure Image34Click(Sender: TObject);
+    procedure Image13Click(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form4: TForm4;
+  score , temps : integer ;
+
+implementation
+
+{$R *.dfm}
+
+uses main_unit, true_ar_unit, false_ar_unit, stg_ar_unit, stg1_ar_unit,
+  stg_fr_unit, stg1_fr_cerific, stg1_fr_unit, stg2_ar_unit, stg2_ar_verific,
+  stg2_fr_unit, stg2_fr_verific;
+
+procedure TForm4.Button1Click(Sender: TObject);
+begin
+  if (CheckBox1.Checked = true ) and (CheckBox3.Checked = true )and (CheckBox4.Checked = true ) then
+          begin
+              label1.Caption := '25' ;
+              score :=  StrToInt(label1.Caption) ;
+              temps :=  StrToInt(Label2.Caption)  ;
+              form5.Show;
+              form4.hide;
+          end
+              else
+
+          begin
+              label1.Caption := '0' ;
+              score :=  StrToInt(label1.Caption) ;
+              temps :=  StrToInt(Label2.Caption)  ;
+              form6.Show;
+              form4.hide;
+          end
+
+end;
+
+procedure TForm4.FormActivate(Sender: TObject);
+begin
+Timer1.Enabled := true ;
+end;
+
+
+procedure TForm4.Image13Click(Sender: TObject);
+begin
+form1.show;
+form4.Hide ;
+end;
+
+procedure TForm4.Image34Click(Sender: TObject);
+begin
+Application.Terminate ;
+end;
+
+procedure TForm4.Timer1Timer(Sender: TObject);
+begin
+Label2.Caption := IntToStr(StrToInt(Label2.Caption )+ 1 );
+end;
+
+end.

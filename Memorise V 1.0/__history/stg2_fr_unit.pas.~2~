@@ -1,0 +1,41 @@
+unit stg2_fr_unit;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  Vcl.Imaging.pngimage;
+
+type
+  TForm12 = class(TForm)
+    Image34: TImage;
+    Image4: TImage;
+    Image5: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Image13: TImage;
+    Label1: TLabel;
+    Image7: TImage;
+    Label3: TLabel;
+    Image8: TImage;
+    Label2: TLabel;
+    Image6: TImage;
+    Image1: TImage;
+    Image9: TImage;
+    Label4: TLabel;
+    Label5: TLabel;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form12: TForm12;
+
+implementation
+
+{$R *.dfm}
+
+end.

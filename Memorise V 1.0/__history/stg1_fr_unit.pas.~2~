@@ -1,0 +1,44 @@
+unit stg1_fr_unit;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  Vcl.Imaging.pngimage;
+
+type
+  TForm10 = class(TForm)
+    Panel1: TPanel;
+    Image5: TImage;
+    Image34: TImage;
+    Image4: TImage;
+    Image3: TImage;
+    Image13: TImage;
+    Image2: TImage;
+    Label1: TLabel;
+    Image7: TImage;
+    Label3: TLabel;
+    Image8: TImage;
+    Label2: TLabel;
+    Image6: TImage;
+    procedure Image34Click(Sender: TObject);
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form10: TForm10;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm10.Image34Click(Sender: TObject);
+begin
+Application.Terminate ;
+end;
+
+end.
